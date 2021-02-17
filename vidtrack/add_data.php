@@ -23,7 +23,7 @@ if( $state==2 )  $temp='paused' ;
 if( $state==3 )  $temp='buffering' ;
 if( $state==4 )  $temp='video cued' ;
 
-if(   $time_state-20 > $timestat) $temp='jumpforward' ;
+if(   $time_state > $timestat) $temp='jumpforward' ;
 if(    $time_state < $timestat )$temp='jumpbackward' ;
 
 
